@@ -116,7 +116,7 @@ new RGBELoader()
 
 // Load 3D Model
 const loader = new GLTFLoader();
-loader.load('./georgian_t-55am.glb', function(gltf) {
+loader.load('/georgian_t-55am.glb', function(gltf) {
         scene.add(gltf.scene);
         gltf.scene.position.set(0,-5,0);
     },
